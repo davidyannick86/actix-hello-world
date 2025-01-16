@@ -1,0 +1,13 @@
+###
+GET http://localhost:8000
+
+###
+GET http://localhost:8000/hey
+
+###
+POST http://localhost:8000/echo
+Content-Type: application/json
+
+{
+    "message": "Hello, world!"
+}
